@@ -1,3 +1,9 @@
-Scripts used in each chapter will be present in a folder with that chapter's name and number.
+This repository contains a variety of scripts used in the thesis submitted to the University of Birmingham by Christopher David Shave for the degree of Doctor of Philosophy.
+
+Scripts are provided for each chapter in which scripts were used to process or analyse data, and are present in folders indivating the chapter's name and number.
+
+Raw data files are not inlcuded, but are available upon request.
+
+Additionally, the hierarchical or project structures of these scripts has not been preserved
 
 Some files that are common to multiple chapters will be available (but I've not decided where yet)
