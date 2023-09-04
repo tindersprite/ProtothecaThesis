@@ -8,8 +8,8 @@ Raw data files are not inlcuded, but are available upon request. Additionally, t
 
 
 Some files that are common to multiple chapters, notably the file that presents the order of species and internal strain identifiers for strains, are present in 
-```
+
 > Chapter 4) Survival of Abiotic Stresses/Process PD data from platereader/
-```
+
 
 Scripts for the use of some tools, e.g. BLAST, BUSCO and QUAST, have not been included, as these were typically used on an interactive command line interface, rather than through scripts.
