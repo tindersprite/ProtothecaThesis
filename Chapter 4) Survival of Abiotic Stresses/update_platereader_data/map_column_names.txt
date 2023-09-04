@@ -1,0 +1,71 @@
+
+
+StrainID			# previously: Strain
+Date			# Previously:
+Experiment		# Previously:
+x			# Previously:
+y			# Previously:
+CultureMedia		# previously: Media
+CultureTemperature	# Previously: CulTemp
+CultureVolume		# Previously:
+CultureShaking		# previously: incubation; Shaking
+InoculatedDensity	# Previously: InocDens
+InocDensWavelength	# Previously: 
+MeasurementShaking	# Previously:
+PrecultureMedia		# Previously: PreMedia
+PrecultureTemperature	# Previously: PreTemp
+PrecultureShaking	# Previously:
+StockMedia		# Previously: 
+StockTemperature		# Previously: StockTemp; StockLocation
+Replicate		# Previously: 
+PlateNumber		# Previously:
+pH			# Previously:
+pHMediaBatch		# Previously: pH.Media.Batch
+H2O2Concentration	# Previously: H2O2Conc
+PlateSize		# Previously:
+Nrow			# Previously:
+Ncol			# Previously:
+Lamp			# Previously:
+MapVersion		# Previously:
+Notes			# Previously:
+
+	Mapped Data
+OD
+Wavelength
+TimePoint
+xy
+
+	Normalised Data
+NormalisedOD
+SpeciesName
+
+	Combined Data
+OD[Wavelength]
+Pathogenic
+Host
+remove NormalisedOD
+remove OD
+remove Wavelength
+
+
+
+
+
+
+Notes
+
+
+
+SpeciesName
+nRow
+nCol
+
+
+#Wavelength
+#OD
+
+# File names must specify date and experiment
+# Should I remove endpoint files?
+
+# Map pictures should contain the file name for the data. 
+# I should probably also save the settings I use when generating a map

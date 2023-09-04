@@ -1,0 +1,118 @@
+
+########################################
+########## SUMMARY OF SCRIPTS ##########
+########################################
+
+These are the tools I use for my platereader experiments
+
+- create_platereader_maps.R
+- pair_maps_and_data.R
+- normalise_mapped_data.R
+	- is it worth making note of how many intervals need to be corrected? around line 63
+- group_by_experiment.R
+- compile_combined_data.R
+
+########################################
+########## NAMING CONVENTIONS ##########
+########################################
+
+Mapping data file names should contain the following elements, separated by underscores:
+- Experiment
+- Version of "create_platereader_maps" used
+- The plate number the map is for
+- the date the experiment took place
+
+Example file name: GC42_1.0.0_Plate1_2021-08-06.xlsx
+
+Raw data file names should contain the following elements, separated by underscores:
+- Experiment
+- ODxxx, where xxx is the wavelength used to measure OD
+- The plate number the map is for
+- the date the experiment took place, in the format YYY-MM-DD
+
+Example file name: GC42_OD600_Plate1_2021-08-06.xlsx
+
+
+########################################
+########## COLUMN CONVENTIONS ##########
+########################################
+
+Mapping data should be generated automatically using the "create_plate_map.R" script.
+
+Mapping data should be generated with the following columns:
+- StrainID		# The strain identifier, as is used by the HAPI lab. For example, HP1 refers to "HAPI Prototheca isolate 1". An up-to-date list of these identifiers must be maintained and be provided in "strain_numbers.csv"
+
+- Date			# The date on which the growth curve is started.
+
+- Experiment		# A brief indicator for the primary stress of the growth curve. For example: GC42, for growth at 42 degrees; Acid, for growth below pH 6; ROS, for growth when exposed to H2O2
+
+- x			#
+
+- y			#
+
+- CultureMedia		# The medium in which the experimental cultures grown during the growth curve experiment, from which measurements (OD, CFU, etc) are taken, were grown. Standard abbreviations are: PIM, Prototheca isolation medium; SAB, Sabouraud Dextrose. Assumed to be broth.
+
+- CultureTemperature	# The temperature at which the experimental cultures were grown during the growth curve experiment.
+
+- CultureVolume		# The volume of media in which the experimental cultures were grown during the growth curve experiment.
+
+- CultureShaking		# The speed (RPM) at which the experimental cultures were shaken during growth during the growth curve experiment. For no shaking, report 0.
+
+- InoculatedDensity	# The optical density (OD) to which the experimental cultures grown during the growth curve experiment was inoculated. The optical density of the inoculum (i.e. normalised preculture) should be measured using the wavelength specified in InocDensWavelength.
+
+- InocDensWavelength	# The wavelength used to measure and normalise the inoculum. Recommendation: 600nm for non-photosynthetic algae (Prototheca, Helicosporidium, etc), and 750nm for photosynthetic algae (Auxenochlorella, Chlorella, etc).
+
+- MeasurementShaking	#  The speed (RPM) at which the experimental cultures were shaken prior to each measurement during the growth curve experiment. For no shaking, report 0.
+
+- PrecultureMedia	# The medium in which the precultures used to inoculate the experimental cultures were grown. Standard abbreviations are: PIM, Prototheca isolation medium; SAB, Sabouraud Dextrose. Assumed to be broth.
+
+- PrecultureTemperature	# The temperature at which the precultures used to inoculate the experimental cultures were grown.
+
+- PrecultureShaking	# The speed (RPM) at which the precultures used to inoculate the experimental cultures were shaken. For no shaking, report 0.
+
+- StockMedia		# The medium in which stock cultures are maintained. Standard abbreviations are: PIM, Prototheca isolation medium; SAB, Sabouraud Dextrose. Assumed to be agar plates
+
+- StockTemperature	# The temperature at which stock cultures were maintained, prior to inoculating the precultures used to inoculate the experimental cultures. 
+
+- Replicate		# Identifier for technical replicates
+
+- PlateNumber		# Identifier to allow for multiple plates to be set up on the same day.
+
+- pH 			# The pH of at which the experimental cultures were grown during the growth curve experiment. If not controlled (i.e. the growth curve was not investigating the effect of pH on growth), default value is NA.
+
+- pHMediaBatch		# If pH controlled media was used, the date on which the pH controlled media was made. In the format MmmYYYY. For example Mar2020
+
+- H2O2Concentration	# The concentration of H2O2 in which the experimental cultures were grown during the growth curve experiment. If not added (i.e. the growth curve was not investigating the effect of H2O2 on growth), default value is 0.
+
+- PlateSize		#
+
+- Nrow			#
+
+- Ncol			#
+
+- Lamp			#
+
+- MapVersion 		# Version of "create_plate_map.R" used to generate the plate map of the experiment
+
+- Notes			#
+
+The following columns should be generated when generating mapped data:
+- OD 			#
+- Wavelength		#
+- TimePoint
+
+The following columns should be generated when generating normalised data:
+- NormalisedOD		#
+
+The following columns should be generated when generating combined data:
+- SpeciesName		#
+- OD[Wavelength]		#
+- Pathogenic		# TRUE, FALSE or UNKNOWN
+- Host			# Associated host: Human, Cattle, Dog, Cat, Goat, Environmental
+
+The following columns should be removed when generating combined data:
+- NormalisedOD
+- OD
+- Wavelength
+
+No columns should be generated when generating compiled data.

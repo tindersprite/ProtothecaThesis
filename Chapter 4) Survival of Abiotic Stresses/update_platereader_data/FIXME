@@ -1,0 +1,9 @@
+Need to have a systematic way to remove contaminated wells. I think I've just been editing the maping data, replacing the strain ID with "NA"
+
+Need to stop generating QC and normalised plots of data that's already been processed
+
+Need to have a way to reprocess data for which a plot has been deleted
+
+Need to actually have compiled datasets and plots produced automatically from the compiled data
+
+Should probably have some warning showing if a negative control looks like it's growing. Maybe make a linear model, and say if the gradient is over some number. Or just show a warning if the neg ever goes over 0.1

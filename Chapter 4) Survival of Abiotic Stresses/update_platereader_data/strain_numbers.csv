@@ -1,0 +1,71 @@
+﻿H_number,Species,From_infection,Host,Notes,Other Names
+HP1,Prototheca wickerhamii,TRUE,Human,,ATCC 30395
+HP2,Prototheca ciferrii,FALSE,Cattle,,SAG2063
+HP3,Prototheca bovis,TRUE,Cattle,,SAG2021
+HP4,Prototheca blaschkeae,TRUE,Human,,SAG2064
+HP5,Prototheca wickerhamii,TRUE,Human,,"CBS 157.74, JCM 9643"
+HP6,Prototheca wickerhamii,TRUE,Human,,"CBS 344.82, JCM 9644"
+HP7,Prototheca wickerhamii,TRUE,Human,,
+HP8,Prototheca wickerhamii,TRUE,Goat,,
+HP9,Prototheca wickerhamii,TRUE,Human,,
+HP10,Prototheca wickerhamii,TRUE,Dog,,
+HP11,Prototheca wickerhamii,TRUE,Cat,,VB974275
+HP12,Prototheca wickerhamii,TRUE,Dog,,VB981821
+HP13,Prototheca wickerhamii,TRUE,Cat,,
+HP14,Prototheca bovis,TRUE,Human,,"JCM, 2004;42:4907-4908"
+HP15,Prototheca bovis,TRUE,Dog,,
+HP16,Prototheca bovis,TRUE,Dog,,
+HP17,Prototheca bovis,TRUE,Dog,,257379
+HP18,Prototheca bovis,TRUE,Human,Sensitive to heat and acid in wells,
+HP19,Prototheca bovis,TRUE,Dog,,VM894562
+HP20,Prototheca bovis,TRUE,Dog,,
+HP21,Prototheca bovis,TRUE,Dog,,
+HP22,Prototheca bovis,TRUE,Dog,,
+HP23,Prototheca bovis,TRUE,Dog,,
+HP24,Prototheca bovis,TRUE,Dog,,
+HP25,Prototheca bovis,UNKNOWN,UNKNOWN,,UNKNOWN
+HP26,Prototheca bovis,UNKNOWN,UNKNOWN,,UNKNOWN
+HP27,Prototheca miyajii,TRUE,Human,,IFM 53848
+HP28,Prototheca cutis,TRUE,Human,,ATCC PRA-338
+HP29,Prototheca tumulicola,FALSE,None,,JCM 31123
+HP30,Prototheca tumulicola,UNKNOWN,UNKNOWN,,UNKNOWN
+HP31,Prototheca paracutis,FALSE,None,,JCM 32112; YMTW3-1; TBRC8745
+HP32,Prototheca cookei,FALSE,None,,JCM 8557
+HP33,Prototheca ciferrii,TRUE,Cattle,,P547
+HP34,Prototheca ciferrii,UNKNOWN,Cattle,,125N
+HP35,Prototheca ciferrii,FALSE,Cattle,Grows slowly on plate,48/IV
+HP36,Prototheca ciferrii,FALSE,None,,JCM 8556
+HP37,Prototheca ciferrii,TRUE,Human,,ATCC MYA-4771
+HP38,Prototheca ciferrii,TRUE,Human,,ATCC MYA-4770
+HP39,Prototheca ciferrii,FALSE,None,"""Paper"" says grows poorly at 25°C (which paper?)",JCM 9346
+HP40,Prototheca bovis,TRUE,Cattle,,E9
+HP41,Prototheca bovis,FALSE,Cattle,,SR4
+HP42,Prototheca bovis,FALSE,Cattle,,O1
+HP43,Prototheca bovis,TRUE,Cattle,Makes less biofilm in flasks,P535
+HP44,Prototheca bovis,TRUE,Cattle,,SAG 2290
+HP45,Prototheca blaschkeae,TRUE,Cattle,,PR-24
+HP46,Prototheca blaschkeae,TRUE,Cattle,,BEL-2
+HP47,Prototheca blaschkeae,FALSE,Cattle,,OD
+HP48,Prototheca blaschkeae,TRUE,Cattle,,560
+HP49,Prototheca wickerhamii,FALSE,None,Grew poorly in flask once,W4
+HP50,Prototheca wickerhamii,TRUE,Cattle,Produces more biofilm in flasks,UTEX 1437; ATCC 16523; NRRL Y-2464
+HP51,Prototheca moriformis,UNKNOWN,UNKNOWN,Grows slowly/poorly in flask; More sensitive to heat in wells,UNKNOWN
+HP52,Prototheca wickerhamii,FALSE,Human,,JCM 9645; CBS 608.66
+HP53,Prototheca xanthoriae,FALSE,None,,CBS 612.66
+HP54,Prototheca xanthoriae,FALSE,None,,JCM 9729; CBS 611.66
+HA1,Auxenochlorella protothecoides,FALSE,None,,CCAP 211/8D; SAG 211-8d
+HA2,Auxenochlorella protothecoides,FALSE,None,,CCAP 211/7A
+HA3,Leptochlorella sp.,FALSE,None,,CCAP 211/54
+HA4,Auxenochlorella protothecoides,FALSE,None,,CCAP 211/7C
+HA5,Auxenochlorella symbiontica,SYMBIOSIS,Hydra viridis,,CCAP 211/61
+HA6,Auxenochlorella sp.1,UNKNOWN,UNKNOWN,,
+HA7,Auxenochlorella sp.2,UNKNOWN,UNKNOWN,,
+HH1,Helicosporidium sp. Cs,TRUE,Cyrtobagus salviniae,,Cs-1; ATCC PRA-374; W strain
+HH2,Helicosporidium sp. Dm,TRUE,Dendroctonus micans,,Dm-1; ATCC PRA-375; T strain
+HH3,Helicosporidium sp. Sj,TRUE,Simulium jonesi,,Sj-1; ATCC 50920; B strain
+NEG,NEG,NA,NA,,
+CCAP 223/1,Keratococcus bicaudatus,FALSE,None,,
+CCAP 218/1,Crucigeniella apiculata,FALSE,None,,
+CCAP 211/97,Coccomyxa galuniae,FALSE,None,,
+CCAP 219/5A,Trebouxia decolorans,FALSE,None,,
+CCAP 11/32A,Chlamydomonas reinhardtii,FALSE,None,,

@@ -1,0 +1,26 @@
+Alphabet,Descent,Pathology
+Auxenochlorella protothecoides,Helicosporidium sp. Sj,Prototheca bovis
+Auxenochlorella pyrenoidosa,Prototheca bovis,Prototheca wickerhamii
+Auxenochlorella symbiontica,Prototheca pringsheimii,Prototheca blaschkeae
+Auxenochlorella sp.1,Prototheca zopfii,Prototheca cutis
+Auxenochlorella sp.2,Prototheca cerasi,Prototheca miyajii
+Chlorella sorokiniana,Prototheca ciferrii,Prototheca ciferrii
+Chlorella variabilis,Prototheca cookei,Prototheca pringsheimii
+Chlorella vulgaris,Prototheca blaschkeae,Prototheca zopfii
+Helicosporidium spp.,Prototheca tumulicola,Prototheca cerasi
+Micractinium conductrix,Prototheca stagnora,Prototheca cookei
+Prototheca blaschkeae,Prototheca moriformis,Prototheca tumulicola
+Prototheca bovis,Prototheca cutis,Prototheca stagnora
+Prototheca cerasi,Prototheca paracutis,Prototheca moriformis
+Prototheca ciferrii,Prototheca miyajii,Prototheca paracutis
+Prototheca cookei,Prototheca wickerhamii,Prototheca xanthoriae
+Prototheca cutis,Prototheca xanthoriae,Auxenochlorella protothecoides
+Prototheca miyajii,Auxenochlorella protothecoides,Auxenochlorella symbiontica
+Prototheca moriformis,Auxenochlorella symbiontica,Auxenochlorella pyrenoidosa
+Prototheca paracutis,Auxenochlorella sp.1,Auxenochlorella sp.1
+Prototheca pringsheimii,Auxenochlorella sp.2,Auxenochlorella sp.2
+Prototheca stagnora,Auxenochlorella pyrenoidosa,Helicosporidium spp.
+Prototheca tumulicola,Chlorella sorokiniana,Chlorella sorokiniana
+Prototheca wickerhamii,Chlorella variabilis,Chlorella variabilis
+Prototheca xanthoriae,Chlorella vulgaris,Chlorella vulgaris
+Prototheca zopfii,Micractinium conductrix,Micractinium conductrix

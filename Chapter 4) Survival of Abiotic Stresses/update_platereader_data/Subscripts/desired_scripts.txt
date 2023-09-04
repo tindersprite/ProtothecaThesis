@@ -1,0 +1,15 @@
+Create plate reader maps # done
+
+Pair maps and raw data # done
+
+Map the raw data, save the mapped data # done
+
+Normalise the mapped data, save normalised data
+
+Identify which normalised data files are from the same experiment. Also identify which wavelengths have been used to measure OD
+
+Combine normalised data of different wavelengths into the same file, save combined data
+
+Compile all the combined data together
+	check all the columns match
+
