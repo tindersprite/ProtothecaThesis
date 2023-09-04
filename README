@@ -1,10 +1,15 @@
-This repository contains a variety of scripts used in the thesis submitted to the University of Birmingham by Christopher David Shave for the degree of Doctor of Philosophy.
+This repository contains a variety of scripts used in the thesis submitted to the University of Birmingham by Christopher David Shave for the degree of Doctor of Philosophy in September of 2023.
+
 
 Scripts are provided for each chapter in which scripts were used to process or analyse data, and are present in folders indivating the chapter's name and number.
 
-Raw data files are not inlcuded, but are available upon request.
 
-Additionally, the hierarchical or project structures of these scripts has not been preserved
+Raw data files are not inlcuded, but are available upon request. Additionally, the project structures of these scripts has not been preserved. Thus file paths, or a lack thereof, will render the scripts non-functional on other devices.
+
 
 Some files that are common to multiple chapters, notably the file that presents the order of species and internal strain identifiers for strains, are present in 
+
 > Chapter 4) Survival of Abiotic Stresses/Process PD data from platereader/
+
+
+Scripts for the use of some tools, e.g. BLAST, BUSCO and QUAST, have not been included, as these were typically used on an interactive command line interface, rather than through scripts.
