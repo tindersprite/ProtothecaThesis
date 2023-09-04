@@ -95,11 +95,6 @@ cell_types <- c("Human Primary Cells", "Murine Cell Line")
 names(cell_types) <- c("GM-CSF Primary", "J774.1")
 #####
 
-# Make sure to check assumptions of ANOVAs
-# README: https://stats.stackexchange.com/questions/11296/using-anova-on-percentages 
-# May want contingency tables for some of the comparisons (e.g. comparing cell types or strains of a species)
-
-
 ##### Full analysis for thesis #####
 #### Identify files to use ####
 
